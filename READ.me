@@ -1,0 +1,20 @@
+O padrão na requisição foi em formato Json com a seguinte estrutura:
+
+Uri: "/generatequery"
+Método: POST
+
+{
+    table: "nome da tabela",
+    values: ["valor a ser comparado"],
+    operators: ["Operadores que serão utilizados(serão utilizados os codigos nos enumeradores)"],
+    Comparators: ["Segundo parametro para ser comparado com o valor"]
+}
+
+Exemplo de body:
+
+{
+    "table": "pedido",
+    "values": ["valor", "tennis"],
+    "operators": [">","and", "=="],
+    "comparators": ["2", "Zuma"]
+}
