@@ -1,7 +1,7 @@
-package com.br.padrao.controller;
+package com.br.generateQuery.controller;
 
-import com.br.padrao.domain.GenerateQuery;
-import com.br.padrao.service.GenerateQueryService;
+import com.br.generateQuery.service.GenerateQueryService;
+import com.br.generateQuery.domain.GenerateQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

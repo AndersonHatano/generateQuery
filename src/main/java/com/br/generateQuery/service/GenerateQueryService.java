@@ -1,6 +1,6 @@
-package com.br.padrao.service;
+package com.br.generateQuery.service;
 
-import com.br.padrao.domain.GenerateQuery;
+import com.br.generateQuery.domain.GenerateQuery;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

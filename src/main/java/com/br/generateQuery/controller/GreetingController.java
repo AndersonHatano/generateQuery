@@ -1,8 +1,8 @@
-package com.br.padrao.controller;
+package com.br.generateQuery.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.br.padrao.domain.Greeting;
+import com.br.generateQuery.domain.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

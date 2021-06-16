@@ -1,4 +1,4 @@
-package com.br.padrao.domain;
+package com.br.generateQuery.domain;
 
 public class Greeting {
 
